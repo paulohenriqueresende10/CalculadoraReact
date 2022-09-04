@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 
 type BotaoProps = {
-    onClick: (e: any)=> void;
+    onClick: (e:any)=> void;
     className: string;
     value: number | string;
 }
