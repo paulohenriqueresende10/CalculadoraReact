@@ -14,6 +14,7 @@
   border-radius: 10px;
   background-color: #485461;
   background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
 }
 
 .btn{
@@ -37,6 +38,11 @@ button {
   cursor: pointer;
   border-radius: 10px;
   outline: none;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+button:active {
+  box-shadow: inset -4px 4px 0 #222;
+  font-size: 2.0rem;
 }
 
 button:hover {
